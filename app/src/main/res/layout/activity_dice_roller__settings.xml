@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".DiceRoller_Settings">
+
+    <Button
+        android:id="@+id/k6BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/k6BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/k6BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/k6BtnAdd" />
+
+    <Button
+        android:id="@+id/btnDCSetBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.973" />
+
+    <Button
+        android:id="@+id/k4BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/diceK4"
+        app:layout_constraintStart_toEndOf="@+id/diceK4"
+        app:layout_constraintTop_toTopOf="@+id/diceK4" />
+
+    <Button
+        android:id="@+id/K4BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/k4BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/k4BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/k4BtnAdd" />
+
+    <TextView
+        android:id="@+id/diceK6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K6"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/diceK4"
+        app:layout_constraintStart_toStartOf="@+id/diceK4"
+        app:layout_constraintTop_toBottomOf="@+id/diceK4" />
+
+    <Button
+        android:id="@+id/k6BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/diceK6"
+        app:layout_constraintStart_toEndOf="@+id/diceK6"
+        app:layout_constraintTop_toTopOf="@+id/diceK6" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K8"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/diceK6"
+        app:layout_constraintStart_toStartOf="@+id/diceK6"
+        app:layout_constraintTop_toBottomOf="@+id/diceK6" />
+
+    <Button
+        android:id="@+id/K8BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/K8BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/K8BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/K8BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/K8BtnAdd" />
+
+    <TextView
+        android:id="@+id/diceK10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K10"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/textView9"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/K10BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/diceK10"
+        app:layout_constraintStart_toEndOf="@+id/diceK10"
+        app:layout_constraintTop_toTopOf="@+id/diceK10" />
+
+    <Button
+        android:id="@+id/K10BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/K10BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/K10BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/K10BtnAdd" />
+
+    <TextView
+        android:id="@+id/diceK12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K12"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/diceK10"
+        app:layout_constraintStart_toStartOf="@+id/diceK10"
+        app:layout_constraintTop_toBottomOf="@+id/diceK10" />
+
+    <TextView
+        android:id="@+id/diceK20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K20"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/diceK12"
+        app:layout_constraintStart_toStartOf="@+id/diceK12"
+        app:layout_constraintTop_toBottomOf="@+id/diceK12" />
+
+    <Button
+        android:id="@+id/K12BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Add"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/diceK12"
+        app:layout_constraintStart_toEndOf="@+id/diceK12"
+        app:layout_constraintTop_toTopOf="@+id/diceK12" />
+
+    <Button
+        android:id="@+id/K12BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/K12BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/K12BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/K12BtnAdd" />
+
+    <Button
+        android:id="@+id/K20BtnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Add"
+        app:layout_constraintBottom_toBottomOf="@+id/diceK20"
+        app:layout_constraintStart_toEndOf="@+id/diceK20"
+        app:layout_constraintTop_toTopOf="@+id/diceK20"
+        android:background="@drawable/button_selector_type_1"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/K20BtnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/button_selector_type_1"
+        android:text="Remove"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/K20BtnAdd"
+        app:layout_constraintStart_toEndOf="@+id/K20BtnAdd"
+        app:layout_constraintTop_toTopOf="@+id/K20BtnAdd" />
+
+    <TextView
+        android:id="@+id/diceK4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:padding="10dp"
+        android:text="K4"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/DCSetList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/K20BtnAdd"
+        app:layout_constraintStart_toStartOf="@+id/K20BtnAdd"
+        app:layout_constraintTop_toBottomOf="@+id/K20BtnAdd"
+        app:layout_constraintVertical_bias="0.192" />
+</androidx.constraintlayout.widget.ConstraintLayout>
