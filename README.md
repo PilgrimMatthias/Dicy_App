@@ -10,7 +10,7 @@
   * K20
   * ![Dice roll list](https://user-images.githubusercontent.com/79660258/112290248-54738180-8c8f-11eb-937f-d972468fb9bf.jpg) ![Dice Roll settings](https://user-images.githubusercontent.com/79660258/112290365-710fb980-8c8f-11eb-89dd-f633af250fcd.jpg)
 * Generate numbers from range that is specified by user.
- * ![Number generator](https://user-images.githubusercontent.com/79660258/112290453-87b61080-8c8f-11eb-8e88-17ad6c17af12.jpg)
+  * ![Number generator](https://user-images.githubusercontent.com/79660258/112290453-87b61080-8c8f-11eb-8e88-17ad6c17af12.jpg)
 * Count HitPoints/Lives:
   * Number of players from 2 - 4
   * Number of HP from 25 to 40 (increase of HP by 5)
