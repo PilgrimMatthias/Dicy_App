@@ -1,6 +1,6 @@
 # Dicy Android App
 
-post images of app here
+Images of app later
 
 # What does it do?
 * Roll dices from selection of:
