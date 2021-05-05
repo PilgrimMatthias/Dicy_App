@@ -27,6 +27,7 @@ public class Dice {
         this.cubeLoops = cubeLoops;
     }
 
+    //Rolling dice
     public int rollDice(){
         int result = 0;
         Random random = new Random();
@@ -57,11 +58,13 @@ public class Dice {
     private static final String JSON_DICE_NAME = "dice name";
     private static final String JSON_NUM_OF_LOOPS = "num of loops";
 
+    //Getting information about dice
     public Dice(JSONObject jo) throws JSONException{
         cubeLoops = jo.getInt(JSON_NUM_OF_LOOPS);
         name = Integer.toString(cubeLoops);
     }
 
+    //Converting dice to JSON
     public JSONObject convertToJSON() throws JSONException{
         JSONObject jo = new JSONObject();
 
